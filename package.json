@@ -1,0 +1,24 @@
+{
+  "name": "backend-nft",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000B\u0000X\u0000-\u0000N\u0000F\u0000T\u0000-\u0000B\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo \"No build step defined\"",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-oauth2-jwt-bearer": "^1.6.1",
+    "mongoose": "^8.16.3",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3"
+  }
+}
